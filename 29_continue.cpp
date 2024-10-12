@@ -1,17 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
- 
+int main()
+{
+
     for (int i = 0; i < 8; i++)
     {
-    
-        if(i==2){
-            continue;   // // continue mane abar first thek start koro  / ai bar skip kore jao
+
+        if (i == 2)
+        {
+            continue;
         }
-        cout<<i<<endl;
+        cout << i << endl;
     }
 
-    
     return 0;
 }

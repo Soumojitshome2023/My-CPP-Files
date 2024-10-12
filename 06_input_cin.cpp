@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
-int main(){
-    
+int main()
+{
+
     int a;
-    cout<<"Enter first number"<<endl;
+    cout << "Enter first number" << endl;
 
-    cin>>a;     // a ar value input nebe
+    cin >> a;
 
-    cout<< "Value of a is "<<a;         // output debe
+    cout << "Value of a is " << a;
     return 0;
 }

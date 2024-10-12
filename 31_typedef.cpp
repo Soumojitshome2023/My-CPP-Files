@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 typedef struct employee
@@ -9,17 +9,18 @@ typedef struct employee
     int salary;
 } ep;
 
-int main(){
-   
-    ep harry;
-   
-    harry.eId = 1;
-    harry.favChar = 'c';
-    harry.salary = 120000000;
+int main()
+{
 
-    cout<<"The value is "<<harry.eId<<endl; 
-    cout<<"The value is "<<harry.favChar<<endl; 
-    cout<<"The value is "<<harry.salary<<endl; 
+    ep soumojit;
+
+    soumojit.eId = 1;
+    soumojit.favChar = 'c';
+    soumojit.salary = 120000000;
+
+    cout << "The value is " << soumojit.eId << endl;
+    cout << "The value is " << soumojit.favChar << endl;
+    cout << "The value is " << soumojit.salary << endl;
 
     return 0;
 }

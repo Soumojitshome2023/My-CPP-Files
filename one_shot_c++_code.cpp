@@ -47,7 +47,7 @@ class Programmer : public Employee
 
 int main()
 {
-    // cout<<"Hello World Harry"<<endl;
+    // cout<<"Hello World soumojit"<<endl;
     // cout<<"Next line";
     // int a, b, c;
     // short s23423a=9;
@@ -57,7 +57,7 @@ int main()
     // int marksInMaths=83;
     // cout<<"The marks of the student in maths is "<<marksInMaths;
 
-    // string harry = "harry"
+    // string soumojit = "soumojit"
     // short a;
     // int b= 89;
     // long c;
@@ -173,7 +173,7 @@ int main()
 
     // cout<<(int) b;
 
-    // string name = "harry";
+    // string name = "soumojit";
     // cout<<"The name is "<<name<<endl;
     // cout<<"The length of name is "<<name.length()<<endl;
     // cout<<"The name is "<<name.substr(1,155)<<endl;
@@ -187,8 +187,8 @@ int main()
     // cout<<"The address of a is "<<&a<<endl;
     // cout<<"The address of a is "<<ptra<<endl;
 
-    Employee har("Harry constructor", 344, 324432);
-    // har.name = "harry";
+    Employee har("soumojit constructor", 344, 324432);
+    // har.name = "soumojit";
     // har.salary = 100;
     har.printDetails();
     har.getSecretPassword();

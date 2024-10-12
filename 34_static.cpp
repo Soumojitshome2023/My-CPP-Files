@@ -1,17 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int product(){
-   
-    static int c=0;         // static use kore c ar last value ta dhore rakha jai 
-    c = c + 1; 
+int product()
+{
+
+    static int c = 0;
+    c = c + 1;
     return c;
 }
-int main(){
+int main()
+{
 
-    cout<<"The product of a and b is "<<product()<<endl;
-    cout<<"The product of a and b is "<<product()<<endl;
-    cout<<"The product of a and b is "<<product()<<endl;
-    
+    cout << "The product of a and b is " << product() << endl;
+    cout << "The product of a and b is " << product() << endl;
+    cout << "The product of a and b is " << product() << endl;
+
     return 0;
 }
+
+/*
+Output : 
+The product of a and b is 1
+The product of a and b is 2
+The product of a and b is 3
+
+*/

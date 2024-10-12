@@ -1,25 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 struct employee
 {
     /* data */
-    int eId; 
-    char favChar; 
-    int salary; 
+    int eId;
+    char favChar;
+    int salary;
 };
 
+int main()
+{
+    struct employee soumojit;
 
-int main(){
-    struct employee harry;
+    soumojit.eId = 1;
+    soumojit.favChar = 'c';
+    soumojit.salary = 120000000;
 
-    harry.eId = 1;
-    harry.favChar = 'c';
-    harry.salary = 120000000;
-
-    cout<<"The value is "<<harry.eId<<endl; 
-    cout<<"The value is "<<harry.favChar<<endl; 
-    cout<<"The value is "<<harry.salary<<endl; 
+    cout << "The value is " << soumojit.eId << endl;
+    cout << "The value is " << soumojit.favChar << endl;
+    cout << "The value is " << soumojit.salary << endl;
 
     return 0;
 }
